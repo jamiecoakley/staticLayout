@@ -10,7 +10,7 @@
 
 .hulu {
     float: left;
-    padding-left: 0.5em;
+    padding-left: 1em;
     padding-top: .2em;
     color: white;
     position: relative;
@@ -48,15 +48,15 @@
 
 .button {
     width: 16em;
-    height: 3em;
+    height: 3.5em;
     z-index: 2; 
     background-color: white;
     margin: 0em 43vw 0em 43vw;
     border-radius: .3em;
     text-align: center;
     padding-top: .1em;
+    padding-bottom: .1em;
     font-family: 'Heebo', sans-serif;
-    font-weight: bold;
     position: center;
 }
 
@@ -70,24 +70,77 @@
 }
 
 .bluebar {
-    background-image: linear-gradient(to right, #08141F, #0F4455 50%);
+    background-image: linear-gradient(to right, #08141F, #0F4455 70%);
     color: white;
     margin: -10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Heebo', sans-serif;
+    
+    
+}
+
+
+
+.bundlePic {
+    padding-top: 2em;
+    
+    
+    
+}
+
+.bundleTextOne {
+    padding: 2em 0em 2em; 
+    margin-left: -8em;
+
+
+}
+
+#bundle {
+    color: #2DBD9D;
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+#moreDetails {
+    color: #B6C2C5;
+    font-size: 9pt;
+    text-decoration: underline;
+
+}
+
+.bundleTextTwo {
+    padding: 2em;  
+}
+
+#getBundle {
+    width: 6em;
+    height: 1.5em;
+    border: 3px solid white;
+    border-radius: .5em;
+    z-index: 3;
+    text-align: center;
+    padding: 1em;
+}
+
+#termsApply {
+   font-size: 7pt;
+   text-decoration: underline;
+   display: flex;
+   justify-self: center;
+   position: relative; 
+   padding-left: 5em;
+
 }
 
 .inBetween {
-    background: url(https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW) 100% no-repeat;
-    width: 100vw;
-    height: 25vw;
-    object-fit: cover;
-    max-width: 100%;
-}
+    background: url(https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW) no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-self: center;
+    width: 80vw;
+    height: 30vw;
+    margin-top: 10px;
 
-.bundlePic {
-    padding-left: 2em;
-    padding-top: .5em;
-}
-
-.bundleText {
-    position: center;
+   
 }
