@@ -81,6 +81,13 @@
     height: 25vw;
     object-fit: cover;
     max-width: 100%;
+}
 
+.bundlePic {
+    padding-left: 2em;
+    padding-top: .5em;
+}
 
+.bundleText {
+    position: center;
 }
