@@ -1,0 +1,86 @@
+.body {
+    background-color: ivory;
+}
+
+.main {
+    background: url(https://www.hulu.com/static/hitch/s3/2020-04/Homepage_Masthead_Test_TREATMENT_3200x1320-v4b_Desktop_0.jpg?3QKebgjV32Lc0StQODoFkcm0kjrPujXN) no-repeat 100%; 
+    margin: -70px -10px 00px -10px;
+    background-size: cover;
+}
+
+.hulu {
+    float: left;
+    padding-left: 0.5em;
+    padding-top: .2em;
+    color: white;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+}
+
+.onePlace {
+    font-family: 'Heebo', sans-serif;
+    padding-top: 2em;
+    font-size: 45pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-align: center;  
+}
+
+.price {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 0em 22em 0em 22em; 
+}
+
+.adds {
+    font-family: 'Heebo', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 0em 22em 0em 22em; 
+}
+
+.button {
+    width: 16em;
+    height: 3em;
+    z-index: 2; 
+    background-color: white;
+    margin: 0em 43vw 0em 43vw;
+    border-radius: .3em;
+    text-align: center;
+    padding-top: .1em;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    position: center;
+}
+
+.finePrint{
+    text-align: center;
+    font-size: 7pt;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    padding: 2em 0em 5em 0em; 
+
+}
+
+.bluebar {
+    background-image: linear-gradient(to right, #08141F, #0F4455 50%);
+    color: white;
+    margin: -10px;
+}
+
+.inBetween {
+    background: url(https://www.hulu.com/static/hitch/s3/2019-11/Welcome-ContentBlock-Desktop%20.jpg?jG5AfMZ.bGHD8c3NgPVsML79Im6UkUSW) 100% no-repeat;
+    width: 100vw;
+    height: 25vw;
+    object-fit: cover;
+    max-width: 100%;
+
+
+}
