@@ -1,4 +1,4 @@
-.body {
+body {
     background-color: #F5F6F7;
 }
 
@@ -10,11 +10,22 @@
 
 .hulu {
     float: left;
-    padding-left: 1em;
-    padding-top: .2em;
+    padding-left: 3vw;
+    padding-top: 1vw;
+    color: white;
+    position: relative;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.logIn {
+    float: right;
+    padding-right: 3vw;
+    padding-top: 2vw;
     color: white;
     position: relative;
     font-family: 'Heebo', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 .onePlace {
@@ -35,6 +46,7 @@
     color: white;
     text-align: center;
     padding: 0em 22em 0em 22em; 
+    margin-top: -1em;
 }
 
 .adds {
@@ -63,9 +75,10 @@
 .finePrint{
     text-align: center;
     font-size: 7pt;
-    color: white;
+    color: #B4B5B3;
     font-family: 'Heebo', sans-serif;
     padding: 2em 0em 5em 0em; 
+    font-weight: 100;
 }
 
 .bluebar {
@@ -77,10 +90,10 @@
     font-family: 'Heebo', sans-serif;      
 }
 
-
-
 .bundlePic {
-    padding-top: 2em;
+    padding-top: 3em;
+    max-width: 357px;
+    max-height: 80px; 
 }
 
 .bundleTextOne {
@@ -92,6 +105,10 @@
     color: #2DBD9D;
     font-size: 9pt;
     font-weight: bold;
+}
+
+#bundlePrice {
+    font-size: 16pt;
 }
 
 #moreDetails {
@@ -118,18 +135,18 @@
    font-size: 7pt;
    text-decoration: underline;
    display: flex;
-   justify-self: center;
-   position: relative; 
-   padding-left: 5em;
+   align-self: center;
+   padding-left: 4.5em;
+   color: #B6C6CB
 }
 
 .inBetween {
     display: flex;
     align-self: center;
     margin-top: 10px;
-    max-height: 845px;
-    max-width: 1500px;
-    padding-left: 13em;   
+    max-height: 1014px;
+    max-width: 1800px;
+    padding: 0em 3em 0em 3em;   
 }
 
 .select{
@@ -137,7 +154,7 @@
     font-family: 'Heebo', sans-serif;
     font-weight: 70;
     font-size: 45pt;
-    margin-bottom: -15px;
+    margin-bottom: -.1em;
 }
 
 .no {
@@ -146,9 +163,133 @@
     font-weight: 70;
     color: #5E6573;
     font-size: 20pt;
+    margin-bottom: 3em;
 }
 
 .plan {
     display: flex;
     flex-direction: row;
+    font-family: 'Heebo', sans-serif
+}
+
+.planOne:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor:pointer;
+    margin-top: -3em;
+}
+
+.planTwo:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor:pointer;
+    margin-top: -3em;
+}
+
+.planOne {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    background-color: white;
+    border: 2px solid white;
+    margin: 0em 1em 14em 20em;
+}
+
+.planTwo {
+    margin: 0em 20em 6em 1em;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    background-color: white;
+    border: 2px solid white;
+}
+
+.huluBase {
+    text-align: center;
+    color: #5E6573;  
+}
+
+.huluPlus {
+    text-align: center;
+    color: #5E6573;    
+}
+
+#title {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+#free {
+    font-size: 18pt;
+}
+
+.huluPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#prices {
+    font-size: 40pt;
+    margin-top: -1em; 
+}
+
+#month {
+font-size: 10pt;
+}
+
+.planButton {
+    background-color: black;
+    z-index: 5;
+    width: 25em;
+    height: 3em;
+    border: 2px solid black;
+    border-radius: .5em;
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: -2em
+}
+
+#selectPlan {
+    color: white; 
+}
+
+#learnMore {
+    color: #3386D3;
+    font-size: 9pt;
+}
+
+hr {
+    border: 1px solid #efefef
+}
+
+.listOne {
+    padding: 0em 2em 0em .5em ;
+    background-color: #FCFCFC; 
+    z-index: 7;
+    margin: 0;
+}
+
+.listTwo {
+    padding: 0em 2em 0em .5em ;
+    background-color: #FCFCFC;
+}
+
+ul {
+    list-style: none;
+}
+
+li:before {
+    content: '✓ ';
+    left: 0;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    color: #2DBD9D;
+    font-weight: 600;
+}
+
+li {
+    position: relative;
+    padding-left: 1.5em;
+}
+
+#addOns {
+    text-align: center;
+    color: #868D9B; 
 }
