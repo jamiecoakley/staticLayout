@@ -97,8 +97,8 @@ body {
 }
 
 .bundleTextOne {
-    padding: 2em 0em 2em; 
-    margin-left: -8em;
+    padding: 2em 0em 2em 0em; 
+    margin-left: -15em;
 }
 
 #bundle {
@@ -118,7 +118,9 @@ body {
 }
 
 .bundleTextTwo {
-    padding: 2em;  
+    padding: 2em 2em 2em 2em;
+    margin-top: 1em;  
+    margin-right: -10em;
 }
 
 #getBundle {
